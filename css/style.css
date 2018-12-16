@@ -1,0 +1,39 @@
+.contact-form form{
+
+}
+.contact-form table{
+	background-color: #000;
+	margin: 0 auto;
+}
+.contact-form tr{
+
+}
+.contact-form td{
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+textarea{
+	width: 100%;
+}
+textarea{
+	resize: none;
+}
+.error{
+	width: 480px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #f00;
+	text-align: justify;
+	display: none;
+}
+.error-span{
+	color: #f00;
+	display: inline-block;
+	margin: 5px;
+	display: none;
+}
